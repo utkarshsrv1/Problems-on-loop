@@ -8,7 +8,7 @@ int main(){
         int sum=0;
         int arm=i;
         
-      while(arm!=0){
+      for(int j=1;arm>0;j++){
           
         int last = arm%10;
         sum+=(last*last*last);
@@ -16,7 +16,7 @@ int main(){
       }
       if(sum==i)
       {
-        cout<<i<<endl;
+        cout<<i<<"\n";
       }
       
     }
